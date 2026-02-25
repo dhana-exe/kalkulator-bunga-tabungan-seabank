@@ -7,7 +7,7 @@ function calculateTabunganInterest() {
   }
 
   const amount = parseFloat(amountInput.replace(/\D/g, ""));
-  const interestRate = 0.0375; // 3.75% per tahun
+  const interestRate = 0.025; // 3.75% per tahun
 
   const dailyInterest = (amount * interestRate) / 365;
   let dailyTax = 0;
